@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FristMauiApp1.Lec2"
+             Title="Maui Page 2"
+             >
+    <VerticalStackLayout>
+        <Label
+            Text="Name"
+            />
+        <Entry
+            x:Name="txtName"
+            Placeholder="Entr Your Name"
+            />
+        <Button
+            Text="Click here"
+            Clicked="btnWelcome_Click"
+            
+            />
+    </VerticalStackLayout>
+</ContentPage>
